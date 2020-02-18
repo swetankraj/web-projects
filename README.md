@@ -1,6 +1,6 @@
 # Web Projects
 
-* [Registration Form](https://swetankraj.github.io/web-projects/1-registration/) - HTML Registration Form with Javascript validator for username, email & password. 
-| Project | Live Demo | Project Files |
-| ------ | ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
+[Registration Form]() - HTML Registration Form with Javascript validator for username, email & password. 
+| Project | Description | Live Demo | Project Files |
+| ------ | ------ | ------ | ------ |
+| Registration Form | HTML Registration Form with Javascript validator for username, email & password. | [plugins/dropbox/README.md][PlDb] | Hello |
