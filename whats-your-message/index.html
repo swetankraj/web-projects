@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What's your message?</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="lang">👋 Hello!</h1>
+    <form id="form">
+      <textarea
+        name="message"
+        class="question"
+        id="msg"
+        required
+        autocomplete="off"
+      ></textarea>
+      <label for="msg"><span>What's your message?</span></label>
+      <input type="submit" value="Save!" />
+    </form>
+
+    <div class="savedmsg">
+      <h1>(⚡) Saved Message</h1>
+      <p id="saved">
+        No saved message found. <br />
+        <br />
+        ✔️ Messages are saved locally in your browser, not in our servers with
+        no expiration date. <br /><br />
+        ✔️ Your message will persist even after the browser window has been
+        closed.
+      </p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
